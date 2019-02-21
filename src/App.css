@@ -31,3 +31,16 @@
     transform: rotate(360deg);
   }
 }
+
+.custom-top{
+  background-color: black;
+}
+.custom-top .top-text{
+  font-weight: bold;
+  font-size: 35px;
+  color: white;
+  padding-bottom: 40px;
+}
+.custom-bottom{
+  margin: 20px 0;
+}
