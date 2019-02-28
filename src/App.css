@@ -44,3 +44,9 @@
 .custom-bottom{
   margin: 20px 0;
 }
+
+#general-infomation{
+  padding: 40px;
+  background: url("https://png.pngtree.com/thumb_back/fh260/back_pic/03/70/72/5257b6c12d89875.jpg") no-repeat top center;
+  background-size: 63% auto;
+}

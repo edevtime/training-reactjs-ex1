@@ -45,7 +45,7 @@ class GeneralInfomation extends Component
       birthday: '',
       address: '',
       email: '',
-      phone: ''
+      yourphone: ''
     };
   }
 
@@ -75,7 +75,7 @@ class GeneralInfomation extends Component
 
   onChangePhone(event){
     this.setState({
-      phone: event.target.value,
+      yourphone: event.target.value,
     });
   }
 
@@ -85,7 +85,7 @@ class GeneralInfomation extends Component
 
   render(){
     return(
-      <div>
+      <div id="general-infomation">
         <h3>Please Enter General Information</h3>
         <span>Your Full Name: </span>
         <input type="text" placeholder={this.state.fullname} onChange={this.onChangeFullName.bind(this)} ref="full-name"/>
@@ -100,14 +100,14 @@ class GeneralInfomation extends Component
         <input type="text" placeholder={this.state.email} onChange={this.onChangeEmail.bind(this)} ref="email"/>
         <br/><br/>
         <span>Your Phone Number: </span>
-        <input type="text" placeholder={this.state.phone} onChange={this.onChangePhone.bind(this)} ref="phone-number"/>
+        <input type="text" placeholder={this.state.yourphone} onChange={this.onChangePhone.bind(this)} ref="phone-number"/>
         <p>-------------------------------------------------------------</p>
         <ShowGeneralInformation 
           fullname={this.state.fullname} 
           birthday={this.state.birthday} 
           address={this.state.address} 
           email={this.state.email} 
-          phone={+this.state.phone} 
+          yourphone={this.state.yourphone} 
         />
       </div>
     );
@@ -132,7 +132,7 @@ class ShowGeneralInformation extends Component{
         <span>{this.props.email}</span>
         <br/><br/>
         <span>Phone Number: </span>
-        <span>{this.props.phone}</span>
+        <span>{this.props.yourphone}</span>
       </div>
     );
   }
