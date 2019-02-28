@@ -1,14 +1,14 @@
 {
-  "main.css": "/training-reactjs-ex1/static/css/main.e362fe5c.chunk.css",
-  "main.js": "/training-reactjs-ex1/static/js/main.d7c4ea24.chunk.js",
-  "main.js.map": "/training-reactjs-ex1/static/js/main.d7c4ea24.chunk.js.map",
+  "main.css": "/training-reactjs-ex1/static/css/main.d28ca2fc.chunk.css",
+  "main.js": "/training-reactjs-ex1/static/js/main.bbe1d625.chunk.js",
+  "main.js.map": "/training-reactjs-ex1/static/js/main.bbe1d625.chunk.js.map",
   "runtime~main.js": "/training-reactjs-ex1/static/js/runtime~main.492766c2.js",
   "runtime~main.js.map": "/training-reactjs-ex1/static/js/runtime~main.492766c2.js.map",
   "static/js/2.3f240d0c.chunk.js": "/training-reactjs-ex1/static/js/2.3f240d0c.chunk.js",
   "static/js/2.3f240d0c.chunk.js.map": "/training-reactjs-ex1/static/js/2.3f240d0c.chunk.js.map",
   "index.html": "/training-reactjs-ex1/index.html",
-  "precache-manifest.908a181324084d1e21d677ff4f30a095.js": "/training-reactjs-ex1/precache-manifest.908a181324084d1e21d677ff4f30a095.js",
+  "precache-manifest.e4d94ffdf400ea4c1fa65a0f9ab33bdb.js": "/training-reactjs-ex1/precache-manifest.e4d94ffdf400ea4c1fa65a0f9ab33bdb.js",
   "service-worker.js": "/training-reactjs-ex1/service-worker.js",
-  "static/css/main.e362fe5c.chunk.css.map": "/training-reactjs-ex1/static/css/main.e362fe5c.chunk.css.map",
+  "static/css/main.d28ca2fc.chunk.css.map": "/training-reactjs-ex1/static/css/main.d28ca2fc.chunk.css.map",
   "static/media/logo.svg": "/training-reactjs-ex1/static/media/logo.5d5d9eef.svg"
 }
